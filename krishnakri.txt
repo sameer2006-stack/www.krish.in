@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NJWEALTH.in</title>
+</head>
+<body>
+    <LENend> NJ E WEALTH MUTUAL FUND DISTRIBUTOR </LENend>
+    <HR>
+        
+ <H1>ARUN KUMAR PANDEY</H1>
+ <ul type="square">
+    <li>krishna kumar pandey<br></li>
+    <li>khushi <br></li>
+    <li>sanjay<br></li>
+    <li>anita kumari<br></li>      
+<a href="https://google.com"target="_blank">go to google</a> <br>
+<a href="https://linkedin.com"target="_blank">go to linkdin</a> <BR>
+<a href="https://facebook.com"target="_blank">go to facebook</a> <BR>
+<a href="https://twitter.com"target="_blank">go to twiter</a> <BR>
+   
+
+
+</body>
+</html>
