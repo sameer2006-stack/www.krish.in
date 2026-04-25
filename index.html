@@ -222,23 +222,28 @@ footer {
 <a href="https://mkt.njwebnest.in/vcard/vcard.php?vcard=vc1-105742&fbclid=IwY2xjawRKtC5leHRuA2FlbQIxMABicmlkETFDaDVVR0dLMUVmMnBSdTlpc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHiknqzDM3JSkdowKN2gNl7MZhLqEEf1p7ekbysAGS0YM4XBZ7d1IY34DyOUn_aem_qZr7YAxfpayUl0QNxwOmXQ"target="_blank">NJ E WEALTH LINK</a> <BR><br>
 <a href="https://www.facebook.com/share/1H2qXuNomc/"target="_blank">FACEBOOK</a> <BR><br>
 <a href="https://wa.me/919661084970"target="_blank"target=_blank">💬 WhatsApp</a> <BR><br>
-   <script>  
-    function sendData() {  
-        alert("clicked");
-        let inputs=
-            document.queryselector("input");
-      let mobile = input[0].value;  
-      let name = input[1].value;  
-      let email = input[2].value;  
-  
-      let token = "8698779627:AAFIy6yzydZwNlA5sAqL_osCWd6BvzQYAAk";  
-      let chat_id = "8698779627";  
-  
-      let message = "Name: " $ name + "\nMobile: " $ mobile + "\nEmail: " $ email;  
-      let url ="https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${encodeURIComponent(message)};
-          fetch(url);
-    }
-  </script> 
+   <script>
+function sendData() {
+
+  alert("clicked");
+
+  let inputs = document.querySelectorAll("input");
+
+  let mobile = inputs[0].value;
+  let name = inputs[1].value;
+  let email = inputs[2].value;
+
+  let token = "8698779627:AAFIy6yzydZwNlA5sAqL_osCWd6BvzQYAAk";
+  let chat_id = "8698779627";
+
+  let message = "Name: " + name + "\nMobile: " + mobile + "\nEmail: " + email;
+
+  let url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${encodeURIComponent(message)}`;
+
+  fetch(url);
+
+}
+</script>
 
 
 </body>
