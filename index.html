@@ -141,6 +141,42 @@ nav a {
 
   
 }
+        *{
+  box-sizing: border-box;
+}
+
+.card{
+  width: 95%;
+  max-width: 450px;
+  margin: 20px auto;
+  padding: 18px;
+  border-radius: 20px;
+}
+
+input{
+  width: 100%;
+  display: block;
+  margin: 8px 0;
+  padding: 12px;
+  font-size: 14px;
+}
+
+button{
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+}
+
+@media (max-width: 600px){
+  .card{
+    width: 92%;
+    padding: 15px;
+  }
+
+  h2{
+    font-size: 18px;
+  }
+}
 
 .card:hover {
   transform: translateY(-10px);
