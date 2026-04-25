@@ -225,26 +225,10 @@ footer {
    <script>
 function sendData() {
 
-  alert("clicked");
+  alert("JS working");
 
-  let inputs = document.querySelectorAll("input");
-
-  let mobile = inputs[0].value;
-  let name = inputs[1].value;
-  let email = inputs[2].value;
-
-  let token = "8698779627:AAFIy6yzydZwNlA5sAqL_osCWd6BvzQYAAk";
-  let chat_id = "8698779627";
-
-  let message = "Name: " + name + "\nMobile: " + mobile + "\nEmail: " + email;
-
-  let url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${encodeURIComponent(message)}`;
-
-  fetch(url);
+  console.log("Button clicked");
 
 }
 </script>
-
-
-</body>
 </html>
