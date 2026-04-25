@@ -224,17 +224,18 @@ footer {
 <a href="https://wa.me/919661084970"target="_blank"target=_blank">💬 WhatsApp</a> <BR><br>
    <script>  
     function sendData() {  
-      let mobile = document.querySelectorAll("input")[0].value;  
-      let name = document.querySelectorAll("input")[1].value;  
-      let email = document.querySelectorAll("input")[2].value;  
+        alert("clicked");
+        let inputs=
+            document.queryselector("input");
+      let mobile = input[0].value;  
+      let name = input[1].value;  
+      let email = input[2].value;  
   
       let token = "8698779627:AAFIy6yzydZwNlA5sAqL_osCWd6BvzQYAAk";  
       let chat_id = "8698779627";  
   
-      let message = "Name: " + name + "\nMobile: " + mobile + "\nEmail: " + email;  
-  
-      fetch("https://api.telegram.org/bot" + token + "/sendMessage?chat_id=" + chat_id + "&text=" + message);  
-    }  
+      let message = "Name: " $ name + "\nMobile: " $ mobile + "\nEmail: " $ email;  
+      let url ="https://api.telegram.org/bot${8698779627:AAFIy6yzydZwNlA5sAqL_osCWd6BvzQYAAk}/sendmessage?chat_id=${chat_id}&text=${encodeurlcomponent(message)};
   </script> 
 
 
